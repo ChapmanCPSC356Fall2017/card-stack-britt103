@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="britt103.cardstack.MainActivity">
+
+    <TextView
+        android:id="@+id/topText"
+        android:textSize="25sp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:text="A"
+        android:textStyle="bold"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp" />
+
+    <ImageView
+        android:id="@+id/topSymbol"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/Hearts"
+        android:layout_below="@+id/topText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+    <ImageView
+        android:id="@+id/middleSymbol"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/Hearts"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/bottomSymbol"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src = "@drawable/Hearts"
+        android:rotation="180"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="36dp"
+        android:layout_alignBottom="@+id/bottomText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/bottomText"
+        android:textSize="25sp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_margin="22dp"
+        android:text="A"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="60dp"
+        android:rotation="180"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
