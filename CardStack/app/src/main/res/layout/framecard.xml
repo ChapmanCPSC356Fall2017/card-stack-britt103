@@ -23,7 +23,7 @@
         android:layout_height="50dp"
         android:layout_marginLeft="7dp"
         android:layout_marginTop="40dp"
-        android:src="@drawable/Hearts" />
+        android:src="@mipmap/hearts" />
     <ImageView
         android:id="@+id/middleSymbol"
         android:layout_width="50dp"
@@ -31,7 +31,7 @@
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:layout_margin="160dp"
-        android:src="@drawable/Hearts" />
+        android:src="@mipmap/hearts" />
 
     <ImageView
         android:id="@+id/bottomSymbol"
@@ -42,7 +42,7 @@
         android:layout_marginLeft="313dp"
         android:layout_marginBottom="20dp"
         android:layout_weight="1"
-        android:src="@drawable/Hearts" />
+        android:src="@mipmap/hearts" />
 
     <TextView
         android:id="@+id/bottomText"
